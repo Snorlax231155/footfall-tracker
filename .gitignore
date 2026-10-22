@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Archives & temporary backups
+Archive.zip
+*.zip
+*.tar.gz
+
+# Generated runtime heatmaps (preserve directory and sample)
+static/heatmaps/*.png
+!static/heatmaps/.gitkeep
+!static/heatmaps/latest_heatmap.png
+
+# PyTorch / Ultralytics runs and cache
+runs/
+.ultralytics/
+
+# Environment files & secrets
+.env
+*.env
+*.local
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
